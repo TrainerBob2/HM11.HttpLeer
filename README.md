@@ -1,6 +1,5 @@
 # HM11.HttpLeer
 
-This project is an **automated security triage system for web/API traffic**.  
 It ingests normalized HTTP request data , embeds requests using sentence transformers, clusters similar behavior, and **prioritizes potentially interesting security issues** such as SSRF, IDOR, debug leaks.
 
 AKA “Show me the weird, rare, and dangerous-looking endpoints first.”
